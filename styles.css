@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.signup-container {
+    background: rgb(100, 16, 16);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(247, 239, 239, 0.1);
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #191b19;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #637065;
+}
+.google {
+    background-color: #db4437;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.google:hover {
+    background-color: #c1351d;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.facebook:hover {
+    background-color: #2d4373;
+}
